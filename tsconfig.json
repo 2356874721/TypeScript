@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2015"], // 运行代码的环境
+    "module": "commonjs", // 编译成commonjs模块系统
+    "outDir": "dist", // 把生成的js放到dist文件夹下
+    "sourceMap": true, 
+    "strict":true, // 检查代码时尽量严格
+    "target": "es2015" // 把代码编译成es2015版本
+  },
+  // 在src目录下寻找ts文件
+  "include": [
+    "src"
+  ]
+}
